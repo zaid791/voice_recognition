@@ -36,29 +36,27 @@ All team members must follow this specification so that the data from different 
 Pattern:
 
 ```
-{class}_{speaker}_{recording}_{device}_{env}.wav
+{class}_{IDspeaker}.wav
 ```
 
 Examples:
 
 ```
-1_anna_r03_laptop_quiet.wav
-0_friend07_r01_phone_noisy.wav
+1_1.wav
+0_1.wav
 ```
 
 After cutting into clips:
 
 ```
-1_anna_r03_laptop_quiet_c005.wav    (c005 = clip number 5)
+1_1_c005.wav    (c005 = clip number 5)
 ```
 
 | Field | Description | Example values |
 |---|---|---|
 | `class` | class label | `0`, `1` |
 | `speaker` | speaker ID | `anna`, `friend07` |
-| `recording` | recording ID for this speaker | `r01`, `r02` |
-| `device` | recording device | `laptop`, `phone` |
-| `env` | environment | `quiet`, `noisy`, `echo` |
+
 
 Rules:
 
