@@ -69,8 +69,8 @@ Rules:
 
 All files must be listed in `data/metadata.csv`:
 
-| file | class | speaker_id | recording_id | device | environment |
-|---|---|---|---|---|---|
+| file | class | speaker_id 
+|---|---|---|
 
 `metadata.csv` is the main source of truth. The file name is a backup and a convenience.
 
