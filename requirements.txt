@@ -1,0 +1,6 @@
+miniaudio
+soundfile
+scipy
+
+
+
