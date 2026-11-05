@@ -54,7 +54,7 @@ After cutting into clips:
 
 | Field | Description | Example values |
 |---|---|---|
-| `class` | class label | `0`, `1` |
+| `class` | class label | `0 (not allowed)`, `1 (allowed)` |
 | `speaker` | speaker ID | `anna`, `friend07` |
 
 
