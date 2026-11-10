@@ -1,0 +1,9 @@
+# Erzeugte Daten der Preprocessing-Pipeline (reproduzierbar, nicht einchecken)
+# data/raw, data/wav und data/metadata.csv bleiben im Repo (Team-Konvention)
+data/clips/
+data/spectrograms/
+
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
