@@ -7,3 +7,6 @@ __pycache__/
 *.pyc
 .venv/
 .ipynb_checkpoints/
+
+# trained models (reproducible: python -m src.model.train)
+models/
