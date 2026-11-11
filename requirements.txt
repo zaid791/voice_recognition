@@ -1,8 +1,11 @@
 miniaudio
 soundfile
 scipy
-
-
-
 librosa
 numpy
+
+# model & training
+torch
+scikit-learn
+pandas
+matplotlib
