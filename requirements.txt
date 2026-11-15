@@ -1,12 +1,13 @@
-miniaudio
-soundfile
-scipy
-librosa
-numpy
+# tested with Python 3.13
+miniaudio==1.73
+soundfile==0.14.0
+scipy==1.18.1
+librosa==1.0.0
+numpy==2.5.4
 
 # model & training
-torch
-scikit-learn
-pandas
-matplotlib
-ipykernel
+torch==2.15.0
+scikit-learn==1.9.1
+pandas==3.1.1
+matplotlib==3.11.2
+ipykernel==7.4.0
