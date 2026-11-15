@@ -14,15 +14,17 @@ This is a **binary classification** task based on the **speaker's voice**:
 
 ## Classes
 
+We classify the speaker's **gender**:
+
 | Class | Meaning | Who |
 |---|---|---|
-| **1** | allowed | **only the five members of our team** |
-| **0** | not allowed | **everyone else** |
+| **1** | allowed | **men** |
+| **0** | not allowed | **women** |
 
-The class depends only on **who is speaking**, not on **what** is said:
+The class depends only on **who is speaking**, not on **what** is said.
 
-- one of us says anything → class **1**
-- anyone else says anything → class **0**
+File names follow `{class}_{speaker}_{n}`, e.g. `1_Victor_2.wav` or `0_Anna_1.wav`
+(see [data_format_spec.md](data_format_spec.md)).
 
 ## Metrics
 
