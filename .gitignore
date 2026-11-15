@@ -13,3 +13,6 @@ models/
 
 # macOS
 .DS_Store
+
+# JetBrains IDE settings
+.idea/
