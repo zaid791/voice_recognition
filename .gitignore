@@ -10,3 +10,6 @@ __pycache__/
 
 # trained models (reproducible: python -m src.model.train)
 models/
+
+# macOS
+.DS_Store
