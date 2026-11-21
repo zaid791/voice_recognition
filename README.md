@@ -14,12 +14,12 @@ This is a **binary classification** task based on the **speaker's voice**:
 
 ## Classes
 
-We classify the speaker's **gender**:
+We classify whether the speaker is one of the **accepted team members**:
 
 | Class | Meaning | Who |
 |---|---|---|
-| **1** | allowed | **men** |
-| **0** | not allowed | **women** |
+| **1** | allowed | Victor, Ulyana, Inigo, Mohammed, Damian |
+| **0** | not allowed | everyone else |
 
 The class depends only on **who is speaking**, not on **what** is said.
 

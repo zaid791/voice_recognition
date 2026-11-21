@@ -42,9 +42,9 @@ Pattern:
 Examples:
 
 ```
-1_Victor_2.opus     (class 1, speaker Victor, his 2nd recording)
-0_Anna_1.wav        (class 0, speaker Anna, her 1st recording)
-1_unk29_1.opus      (speaker name unknown, gender checked by listening)
+1_Victor_2.opus     (class 1, accepted speaker Victor, 2nd recording)
+0_Anna_1.wav        (class 0, not-accepted speaker Anna, 1st recording)
+0_unk29_1.opus      (speaker name unknown -> not accepted)
 ```
 
 After cutting into clips:
@@ -55,7 +55,7 @@ After cutting into clips:
 
 | Field | Description | Example values |
 |---|---|---|
-| `class` | class label | `0` = women (not allowed), `1` = men (allowed) |
+| `class` | class label | `1` = accepted speaker (Victor, Ulyana, Inigo, Mohammed, Damian), `0` = anyone else (not allowed) |
 | `speaker` | speaker name or code | `Anna`, `Victor`, `video3`, `unk29` |
 | `n` | number of the recording of this speaker | `1`, `2`, `3` |
 
